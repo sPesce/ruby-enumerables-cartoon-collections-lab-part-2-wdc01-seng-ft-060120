@@ -22,8 +22,10 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
 
 planeteer_calls.find{|call|
-  valid_calls.each{|valid|
-  (call == valid)
-  }
+  call == valid_calls[0]
+  call == valid_calls[1]
+  call == valid_calls[2]
+  call == valid_calls[3]
+  call == valid_calls[4]
 }
 end

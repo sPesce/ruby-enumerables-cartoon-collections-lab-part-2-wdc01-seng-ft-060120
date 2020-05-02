@@ -23,6 +23,7 @@ def find_valid_calls(planeteer_calls)
 
 planeteer_calls.find{|call|
   valid_calls.each{|valid|
-  (call == valid)
+  (call == valid)?
+  }
 }
 end

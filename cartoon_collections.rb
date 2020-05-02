@@ -31,5 +31,11 @@ def find_valid_calls(planeteer_calls)
   }
 =end
 
-planeteer_calls.find(valid_calls)
+planeteer_calls.find{|call|
+  valid_calls.each{|valid|
+    
+    
+  }
+  
+}
 end
